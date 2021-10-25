@@ -1,8 +1,8 @@
 package be.intecbrussel;
 
-public class ApplicationContext {
+public class ApplicationContext {  // IOC
     public static DependencyInterface getDependency(){
-        return new SomeDependency();
+        return new GmailDependency();
     }
 
     public static SomeService getSomeService(){
@@ -16,4 +16,6 @@ public class ApplicationContext {
 //    public static SomeViewClass getView(){
 //        return new ViewClass(getSomeService());
 //    }
+
+
 }
