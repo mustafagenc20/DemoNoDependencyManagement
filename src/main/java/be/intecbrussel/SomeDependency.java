@@ -1,4 +1,4 @@
 package be.intecbrussel;
 
-public class SomeDependency {
+public class SomeDependency implements DependencyInterface{
 }

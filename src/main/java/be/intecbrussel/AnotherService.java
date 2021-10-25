@@ -1,9 +1,9 @@
 package be.intecbrussel;
 
 public class AnotherService {
-    private SomeDependency someDependency;
+    private DependencyInterface dependency;
 
-    public AnotherService(){
-        this.someDependency = new SomeDependency();
+    public AnotherService(DependencyInterface dependency){
+        this.dependency = dependency;
     }
 }
